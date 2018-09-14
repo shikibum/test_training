@@ -1,0 +1,18 @@
+earliest:
+  id: 1
+  blog_id: 1
+  title: "吾輩は猫である"
+  body: "名前はまだない"
+  posted_on: 2012-05-01
+latest:
+  id: 2
+  blog_id: 1
+  title: "hoge"
+  body: "hogehoge"
+  posted_on: 2012-05-10
+_upgrading:
+  id: 3
+  blog_id: 2
+  title: "fuga"
+  body: "fugafuga"
+  posted_on: 2012-06-01
