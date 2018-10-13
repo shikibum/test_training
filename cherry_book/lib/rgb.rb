@@ -1,3 +1,5 @@
 def to_hex(r, g, b)
-  '#000000'
+  [r, g, b].inject('#') do |hex, n|
+    hex + n.to_s(16).rjust(2, '0')
+  end
 end
